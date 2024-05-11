@@ -97,12 +97,10 @@ const Register = () => {
     } else if (email === "") {
       toast.error("please enter your email");
       return;
-    } 
-    else if (!email.includes( "gmail" )) {
+    } else if (!email.includes("gmail")) {
       toast.error("enter valid email");
       return;
-    }
-    else if (!input.gender) {
+    } else if (!input.gender) {
       toast.error("Please select your gender");
     } else if (age < 14 || age > 99) {
       toast.error("Age must be between 14 and 99 years");
@@ -210,7 +208,7 @@ const Register = () => {
               <div className="form_location">
                 <label htmlFor="country"> Country</label>
                 <select className="select" onChange={(e) => handleCountry(e)}>
-                  <option  value="">select country</option>
+                  <option value="">select country</option>
                   {country.map((item) => (
                     <option key={item} value={getCountry}>
                       {item}
@@ -305,7 +303,7 @@ const Register = () => {
               Sign up
             </button>
           </form>
-          <ToastContainer autoClose={3000}  />
+          <ToastContainer autoClose={3000} />
         </div>
       </section>
     </>
