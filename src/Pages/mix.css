@@ -1,0 +1,322 @@
+section {
+    width: 100%;
+    padding: 10px;
+    background-color: #f3f3f3;
+  
+  }
+  
+  section .form_data {
+    max-width: 750px;
+    margin: 25px auto;
+    padding: 10px 10px;
+    box-shadow: 0 0 30px -10px #5384d8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+   
+  }
+  
+  .form_heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form_data h1 {
+    font-size: 34px;
+    color: #1E90FF;
+ 
+  }
+  
+  .form_data p {
+    color: #718096;
+    font-size: 15px;
+    margin-top: 3px;
+  }
+  
+  .form_data form {
+    margin-top: 1px;
+    width: 100%;
+    padding: 10px 50px;
+  }
+  
+  .form_data form .form_input input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #d4d0d0;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 14px;
+    margin-top: 2px;
+    font-size: 14px;
+    
+  }
+  
+  .form_data form .form_input label {
+    font-weight: 600;
+    font-size: 15px;
+  }
+  
+  .form_input .two {
+    display: flex;
+    align-items: center;
+    position: relative;
+  
+  }
+  
+  .form_data form .form_input input:focus {
+    border: 2px solid rgba(66, 153, 225, 0.6);
+  }
+  
+  .form_data form .form_input input::placeholder {
+    color: #8694a8;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+  }
+  
+  .form_input .showpass {
+    position: absolute;
+    right: 0;
+    background-color: blueviolet;
+    top: 1px;
+    padding: 7px 10px;
+    margin-right: 5px;
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #2a4365;
+    background-color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form .btn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #1E90FF;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  form .btn:hover {
+    background-color: #97a1b1;
+  }
+  
+  .form_data form p {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .form_data form a {
+    text-decoration: none;
+    color: #718096;
+    border-bottom: 2px solid #8694a8;
+  }
+  
+
+  .radio_button{
+    margin: 9px 0;
+    padding: 5px 5px;
+    border: 1px solid #d4d0d0;
+    border-radius: 5px;
+    outline: none;
+  }
+
+  .radio_button .radio_button_options{
+    display: flex;
+  justify-content: flex-start;
+  align-items: center;
+    margin: 3px 0;
+  }
+  .radio_button .radio_button_options input{
+    margin-right: 20px;
+
+  }
+
+/* for profile page */
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 80%;
+  min-height: 650px;
+  display: flex;
+  box-shadow: 0 1px 20px 0 rgba(69,90,100,.08);
+}
+
+.wrapper .left{
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to right,#01a9ac,#01dbdf);
+  padding: 30px 25px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  text-align: center;
+  color: #fff;
+  background-color: green;
+}
+
+.wrapper .left img{
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 80%;
+
+}
+
+.wrapper .left h1{
+  margin-bottom: 10px;
+  font-size: 25px;
+
+}
+
+.wrapper .left p{
+  font-size: 18px;
+}
+
+.wrapper .right{
+  width: 65%;
+  background: #fdfdfd;
+  padding: 30px 25px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.wrapper .right .info,
+.wrapper .right .projects{
+  margin-bottom: 25px;
+   
+
+
+}
+
+.wrapper .right .info h3,
+.wrapper .right .projects h3{
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e0e0e0;
+    color: #353c4e;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.wrapper .right .info_data,
+.wrapper .right .projects_data{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.wrapper .right .info_data .data,
+.wrapper .right .projects_data .data{
+  width: 45%;
+
+  margin: 0 10px;
+}
+
+.wrapper .right .info_data .data h4,
+.wrapper .right .projects_data .data h4{
+    color: #353c4e;
+    margin-bottom: 5px;
+}
+
+.wrapper .right .info_data .data p,
+.wrapper .right .projects_data .data p{
+  font-size: 13px;
+  margin-bottom: 10px;
+  color: #919aa3;
+}
+
+.wrapper .social_media ul{
+  display: flex;
+}
+
+.wrapper .social_media ul li{
+  width: 45px;
+  height: 45px;
+  background: linear-gradient(to right,#01a9ac,#01dbdf);
+  margin-right: 10px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 45px;
+}
+
+.wrapper .social_media ul li a{
+  color :#fff;
+  display: block;
+  font-size: 18px;
+}
+
+
+/* // for location */
+.form_location {
+
+
+  width: 100%;
+  padding: 11px;
+  border: 1px solid #d4d0d0;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 14px;
+  margin-top: 9px;
+  font-size: 14px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+select {
+  width: 50%;
+  padding: 7px;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+option {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #fff;
+  color: #333;
+}
+
+select:focus {
+  outline: none;
+  border-color: #007bff; /* You can customize focus color */
+}
+
+
+
+@media only screen and (max-width: 767px) {
+  /* Your CSS styles for mobile devices go here */
+  .wrapper .right .info_data .data,
+.wrapper .right .projects_data .data{
+  width: 100%;
+
+  margin: 0 10px;
+}
+
+.wrapper .right .info,
+.wrapper .right .projects{
+  margin-bottom: 25px;
+
+}
+
+
+
+}
